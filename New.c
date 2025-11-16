@@ -77,6 +77,7 @@ void main(){
   }
 
 
-  //Player++;
+  Player++;
   }
+
 }
