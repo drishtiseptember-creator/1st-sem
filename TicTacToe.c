@@ -1,5 +1,5 @@
 #include<stdio.h>
-int Player=1,choice,status=-1,i;
+int Player=1,choice,status=-1;
 char symbol;
 char position[10]={'0','1','2','3','4','5','6','7','8','9'};
 void board();
@@ -16,7 +16,7 @@ printf("    |    |    \n");
 }
 int win();
 int win(){
-  char j;
+  int j;
   if(position[1]==position[2]&&position[2]==position[3]){
     return 1;
   }
@@ -79,4 +79,5 @@ void main(){
 
   Player++;
   }
+
 }
