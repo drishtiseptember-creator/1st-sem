@@ -56,7 +56,7 @@ void main(){
   while(status==-1){
     Player=(Player%2!=0)?1:2;
     symbol=(Player==1)?'X':'O';
-    printf("Player %d, enter your position choice:");
+    printf("Player %d, enter your position choice:",Player);
     scanf("%d",&choice);
     if(choice<1 || choice>9){
       printf("INVALID INPUT!! ENTER CHOICE AGAIN.\n");
@@ -81,3 +81,4 @@ void main(){
   }
 
 }
+
